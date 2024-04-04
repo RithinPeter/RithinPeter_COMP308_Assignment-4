@@ -1,0 +1,63 @@
+body {
+  background-color: #72bcf1; /* Soft, calming blue background for the whole page */
+  font-family: 'Roboto', sans-serif; /* More modern and airy font */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200vh;
+}
+
+.student-form-container {
+  width: 500px;
+  margin: 30px auto;
+  padding: 30px;
+  border: none; /* Cleaner look without border */
+  background-color: #ffefd5; /* Light pastel peach background for the form */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06); /* Subtler shadow for depth */
+  border-radius: 12px; /* Pronounced rounded corners for a modern look */
+  text-align: center; /* Center the text for the titles/labels */
+}
+
+.student-form-label {
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #666; /* Softer dark grey for better readability */
+}
+
+.student-form-input {
+  width: calc(100% - 16px); /* Adjust width to account for padding */
+  padding: 8px;
+  margin-bottom: 20px; /* More space between fields */
+  border: 2px solid #f0f0f0; /* Lighter border color */
+  border-radius: 8px; /* Consistent rounded borders for the inputs */
+  box-sizing: border-box;
+}
+
+.student-form-button {
+  background-color: #f30b2e; /* Soft pink color */
+  color: #fff;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uppercase button text */
+  letter-spacing: 1px; /* Increase letter spacing */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.student-form-button:hover {
+  background-color: #fa8072; /* Salmon color for hover state */
+}
+
+/* Adjusted styling for titles */
+h1, h2 {
+  color: #666; /* Soft dark grey for titles */
+  margin-bottom: 1em; /* Better spacing from the form */
+}
